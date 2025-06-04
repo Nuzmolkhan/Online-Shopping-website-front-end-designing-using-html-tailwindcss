@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AmarShop | Sign In</title>
-    <link rel="stylesheet" href="./output.css">
+    <title>AmarShop | Sign Up</title>
+    <link rel="stylesheet" href="./style.css">
     <!-- fontawesome kit -->
     <script src="https://kit.fontawesome.com/f503374b60.js" crossorigin="anonymous"></script>
 </head>
@@ -35,7 +35,7 @@
         <i class="fa-duotone fa-solid fa-cart-shopping fa-lg" style="--fa-primary-color: #14233e; --fa-secondary-color: #936802;"></i>
       </div>
       <div>
-         <a class="text-md transition-bg duration-500 mr-2 cursor-pointer rounded-md border-none bg-[#936802]/95 p-2 px-4 font-semibold text-white duration-600 outline-none hover:bg-[#5c4300]/80 hover:px-3 hidden md:flex sm:hidden" href="register.html">Sign Up</a>
+         <a class="text-md transition-bg duration-500 mr-2 cursor-pointer rounded-md border-none bg-[#936802]/95 p-2 px-4 font-semibold text-white duration-600 outline-none hover:bg-[#5c4300]/80 hover:px-3 hidden md:flex sm:hidden" href="login.html">Sign In</a>
       </div>
       <div class="md:hidden sm:block">
         <i class="fa-solid fa-bars fa-2xl"></i>
@@ -66,12 +66,25 @@
             <div class="w-full flex flex-col p-10 space-y-10 lg:w-[60%]lg:p-6 md:w-[70%] lg:w-[55%]">
               <h1 class="ml-2 cursor-pointer font-mono text-3xl font-bold sm:text-4xl  text-center"><span class="font-thin text-blue-700">Welcome to </span><i class="fa-solid fa-bag-shopping" style="color: #936802;"></i>Amar<span class="text-md transition-bg duration-500 mr-2 cursor-pointer rounded-md border-none bg-[#936802]/95 px-4 font-semibold text-white duration-600 outline-none hover:bg-[#5c4300]/80 hover:px-3">Shop</span></h1>
 
-              <div class="w-full">
-                <p class="w-full text-center my-4 text-md">If you don't already use AmarShop, it's simple to <a class="text-blue-600 font-semibold hover:underline" href="register.html">Sign up</a></p> 
-              </div>
+              <p class="w-full text-center my-4">If you already use AmarShop, 
+                <a class="text-blue-600 font-semibold hover:underline" href="login.html">Sign In</a></p>
 
               <!-- input section starts   -->
               <div class="w-[80%]  flex flex-col space-y-10 mx-auto xl:w-[50%] xl:w-[65%]">
+                <!-- Name input section starts -->
+                <div class="w-full border-blue-100 border-2 rounded-md flex justify-between items-center">
+                  <input class="w-full outline-none text-xl px-4 p-2 placeholder:text-black-300 rounded border-transparent focus:shadow-xl transition-all duration-500" type="text" placeholder="Full Name">
+                </div>
+                <!-- Name input section ends -->
+
+                <!-- Phone input section starts -->
+                <div class="w-full border-blue-100 border-2 rounded-md flex justify-between items-center">
+                  <div class="w-[25%]  p-2 py-2 flex justify-center items-center border-r-2 sm:w-[19%] md:w-[30%] lg:w-[25%] xl:w-[22%]">
+                    <input class="w-full outline-none text-xl placeholder:text-black-300 rounded border-transparent focus:shadow-xl transition-all duration-500" type="number" placeholder="+880">
+                  </div>
+                  <input class="w-[75%] outline-none text-xl px-4 p-2 placeholder:text-black-300 rounded focus:shadow-xl transition-all duration-500 sm:w-[88%]" type="number" placeholder="01*********">
+                </div>
+                <!-- Phone input section ends -->
 
                 <!-- email input section starts -->
                 <div class="w-full border-blue-100 border-2 rounded-md flex justify-between items-center">
@@ -89,8 +102,8 @@
 
                 <!-- login button starts -->
                 <div class="w-full">
-                  <button class="w-full text-md transition-bg duration-500 mr-2 cursor-pointer rounded-md border-none bg-[#936802]/95 p-2 font-semibold text-white duration-600 outline-none hover:bg-[#5c4300]/80 hover:px-3 text-xenter text-2xl">Login</button>
-                  <a class="italic hover:text-blue-600 transition-text duration-300" href="#">forgot password?</a>
+                  <button class="w-full text-md transition-bg duration-500 mr-2 cursor-pointer rounded-md border-none bg-[#936802]/95 p-2 font-semibold text-white duration-600 outline-none hover:bg-[#5c4300]/80 hover:px-3 text-xenter text-2xl">Signup</button>
+                  <!-- <a class="italic hover:text-blue-600 transition-text duration-300" href="#">forgot password?</a> -->
                 </div>
                 <!-- login button ends -->
 
