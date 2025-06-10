@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact | AmarShop</title>
     <link rel="stylesheet" href="./style.css">
+    <!-- fontawesome kit -->
+    <script src="https://kit.fontawesome.com/f503374b60.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <!-- nav section starts here -->
@@ -43,72 +45,67 @@
     <!-- nav section ends here -->
 
 
-    <div class="w-full h-screen flex justify-center items-center">
-        <div class="w-[70%] h-[70%] border-2 border-gray-200 flex justify-between items-center">
-          <div class="w-[50%] h-full bg-[url('https://images.unsplash.com/photo-1615840287214-7ff58936c4cf?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-center">
-            <div class="text-white p-32 bg-black/85 w-full h-full flex justify-center items-center">
-                <div class="flex flex-col space-y-10">
-                  <div class="flex flex-col space-y-2">
-                <h3 class="text-2xl">Address</h3>
-                <p class="text-green-600 text-xl">313 Wilson road, Nabiganj, Bandar, Narayanganj</p>
-              </div>
-              <div class="flex flex-col space-y-2">
-                <h3 class="text-2xl">Let's Talk</h3>
-                <p class="text-green-600 text-xl">+880 19868-22599</p>
-              </div>
-              <div class="flex flex-col space-y-2">
-                <h3 class="text-2xl">General Support</h3>
-                <p class="text-green-600 text-xl">amarshop@gmail.com</p>
-              </div>
-                </div>
-            </div>
+    
+
+
+    <div class="w-full h-screen flex justify-center items-center bg-gray-100">
+  <div class="w-[90%] h-[90%] border-2 border-gray-200 flex flex-col lg:flex-row overflow-hidden rounded-lg shadow-lg">
+    
+    <!-- Left Side: Video Background with Overlay Content -->
+    <div class="w-full lg:w-[50%] h-[90%] lg:h-full relative">
+      <video autoplay muted loop class="absolute inset-0 w-full h-full object-cover">
+        <source src="/images/contact.mp4" type="video/mp4"/>
+        Your browser does not support the video tag.
+      </video>
+      <div class="absolute inset-0 bg-black/85 text-white flex justify-center items-center">
+        <div class="w-full flex flex-col space-y-4 py-64 px-10 sm:space-y-10">
+          <div class="space-y-2">
+            <h3 class="text-2xl font-semibold">Address</h3>
+            <p class="text-green-600 text-xl">313 Wilson road, Nabiganj, Bandar, Narayanganj</p>
           </div>
-              <!-- form section starts -->
-            <div class="w-full flex flex-col p-10 space-y-10 lg:w-[60%]lg:p-6 md:w-[70%] lg:w-[55%]">
-              <h1 class="ml-2 cursor-pointer font-mono text-3xl font-bold sm:text-4xl  text-center"><span class="font-thin text-blue-700 uppercase">Send us a message</h1>
-
-              <!-- input section starts   -->
-              <div class="w-[80%]  flex flex-col space-y-10 mx-auto xl:w-[50%] xl:w-[65%]">
-                <!-- Name input section starts -->
-                <div class="w-full border-blue-100 border-2 rounded-md flex justify-between items-center">
-                  <input class="w-full outline-none text-xl px-4 p-2 placeholder:text-black-300 rounded border-transparent focus:shadow-xl transition-all duration-500" type="text" placeholder="Full Name">
-                </div>
-                <!-- Name input section ends -->
-
-                <!-- Phone input section starts -->
-                <div class="w-full border-blue-100 border-2 rounded-md flex justify-between items-center">
-                  <div class="w-[25%]  p-2 py-2 flex justify-center items-center border-r-2 sm:w-[19%] md:w-[30%] lg:w-[25%] xl:w-[22%]">
-                    <input class="w-full outline-none text-xl placeholder:text-black-300 rounded border-transparent focus:shadow-xl transition-all duration-500" type="number" placeholder="+880">
-                  </div>
-                  <input class="w-[75%] outline-none text-xl px-4 p-2 placeholder:text-black-300 rounded focus:shadow-xl transition-all duration-500 sm:w-[88%]" type="number" placeholder="01*********">
-                </div>
-                <!-- Phone input section ends -->
-
-                <!-- email input section starts -->
-                <div class="w-full border-blue-100 border-2 rounded-md flex justify-between items-center">
-                  <input class="w-full outline-none text-xl px-4 p-2 placeholder:text-black-300 rounded border-transparent focus:shadow-xl transition-all duration-500" type="email" placeholder="Email">
-                </div>
-                <!-- email input section ends -->
-
-                <div class="w-full border-blue-100 border-2 rounded-md flex justify-between items-center">
-                    <textarea class="w-full outline-none text-xl px-4 p-2 placeholder:text-black-300 rounded border-transparent focus:shadow-xl transition-all duration-500" name="message" id="message" placeholder="Your Message..."></textarea>
-                </div>
-
-
-                <!-- login button starts -->
-                <div class="w-full">
-                  <button class="w-full text-md transition-bg duration-500 mr-2 cursor-pointer rounded-md border-none bg-[#936802]/95 p-2 font-semibold text-white duration-600 outline-none hover:bg-[#5c4300]/80 hover:px-3 text-xenter text-2xl">Send Message</button>
-                  <!-- <a class="italic hover:text-blue-600 transition-text duration-300" href="#">forgot password?</a> -->
-                </div>
-                <!-- login button ends -->
-
-              </div>
-              <!-- input section ends   -->
-
-            </div>
-            <!-- form section ends -->
+          <div class="space-y-2">
+            <h3 class="text-2xl font-semibold">Let's Talk</h3>
+            <p class="text-green-600 text-xl">+880 19868-22599</p>
+          </div>
+          <div class="space-y-2">
+            <h3 class="text-2xl font-semibold">General Support</h3>
+            <p class="text-green-600 text-xl">amarshop@gmail.com</p>
+          </div>
         </div>
+      </div>
     </div>
+
+    <!-- Right Side: Contact Form -->
+    <div class="w-full lg:w-[50%] p-6 lg:p-10 flex flex-col justify-center space-y-8">
+      <h1 class="text-3xl sm:text-4xl text-center font-mono font-bold">
+        <span class="text-blue-700 uppercase font-thin">Send us a message</span>
+      </h1>
+
+      <div class="w-full flex flex-col space-y-6">
+        <!-- Full Name -->
+        <input class="w-full border-2 border-blue-100 rounded-md p-3 text-lg outline-none focus:shadow-xl transition" type="text" placeholder="Full Name" />
+
+        <!-- Phone -->
+        <div class="flex border-2 border-blue-100 rounded-md overflow-hidden">
+          <input class="w-[25%] p-3 text-lg text-center border-r border-blue-100 outline-none" type="number" placeholder="+880" />
+          <input class="w-[75%] p-3 text-lg outline-none" type="number" placeholder="01*********" />
+        </div>
+
+        <!-- Email -->
+        <input class="w-full border-2 border-blue-100 rounded-md p-3 text-lg outline-none focus:shadow-xl transition" type="email" placeholder="Email" />
+
+        <!-- Message -->
+        <textarea class="w-full border-2 border-blue-100 rounded-md p-3 text-lg outline-none focus:shadow-xl transition resize-none" rows="4" placeholder="Your Message..."></textarea>
+
+        <!-- Submit Button -->
+        <button class="w-full bg-[#936802]/95 hover:bg-[#5c4300]/80 text-white text-xl font-semibold py-3 rounded-md transition duration-500">
+          Send Message
+        </button>
+      </div>
+    </div>
+  </div>
+    </div>
+
 
 
     <!-- footer section starts here -->
